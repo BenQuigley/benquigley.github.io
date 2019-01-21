@@ -1,0 +1,27 @@
+{
+  "first": "Ben",
+  "last": "Quigley",
+  "title": "Solutions engineer",
+  "header": "Solutions engineer developing and managing user-friendly, effective, enterprise software systems.",
+  "about": "I apply my years of experience inventing, building, and rebuilding processes and services at client companies, and a strong portfolio of digital and human-organizational skills to revolutionize how work happens on my team.",
+  "tags": [
+    "full stack software development",
+    "teaching & learning",
+    "systems solutions"
+  ],
+  "skills": [
+    "business intelligence",
+    "ETL",
+    "data management",
+    "integration development",
+    "JavaScript, Linux",
+    "user experience",
+    "Python",
+    "SaaS",
+    "SQL",
+    "technical sales"
+  ],
+  "status": "Looking for work",
+  "email": "benjamin.s.quigley@gmail.com",
+  "hometown": "Philadelphia, PA"
+}
