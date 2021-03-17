@@ -2,7 +2,7 @@
   "name": "benquigley.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://signmaker.dev",
+  "homepage": "https://benquigley.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
