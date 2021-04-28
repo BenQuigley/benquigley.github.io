@@ -1,7 +1,6 @@
 import quigley from "./static/images/quigley.jpg";
 import quigleyExpoCropped from "./static/images/quigleyExpoCropped.jpg";
-import "./css/style.css";
-import "./css/normalize.css";
+import "./App.css";
 import { Helmet } from "react-helmet";
 
 function App() {
