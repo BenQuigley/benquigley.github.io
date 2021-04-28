@@ -2,11 +2,17 @@ import quigley from './static/images/quigley.jpg';
 import quigleyExpoCropped from './static/images/quigleyExpoCropped.jpg';
 import './css/style.css';
 import './css/normalize.css';
+import {Helmet} from "react-helmet";
 
 
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Ben Quigley Home</title>
+        <link rel="canonical" href="http://signmaker.dev" />
+      </Helmet>
       <div class="body">
           <div class='card mini'>
             <p><a href="index.html">home</a> | <a href="index.html#about">about</a> | <a href="index.html#contact">contact</a> | <a href="https://benideas.home.blog">blog</a> | <a href="https://github.com/BenQuigley">GitHub</a> | <a href="static/pages/QuigleyResume.html">resume</a></p>
