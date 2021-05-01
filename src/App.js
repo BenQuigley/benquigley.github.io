@@ -5,7 +5,6 @@ import "./App.css";
 import { Helmet } from "react-helmet";
 
 const Home = () => (
-  <div className="container">
     <div className="card display">
       <div>
         <h1>Ben Quigley</h1>
@@ -19,7 +18,6 @@ const Home = () => (
         alt="Ben at a HR technology expo with the Sage People team"
       />
     </div>
-  </div>
 )
 
 const About = () => (
