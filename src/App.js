@@ -123,7 +123,6 @@ export default function App() {
                 <Link to="/resume">resume</Link>
               </p>
             </div>
-          </div>
 
           {/* Route components are rendered if the path prop matches the current URL */}
           <Route exact path="/">
@@ -141,6 +140,7 @@ export default function App() {
           <Route path="/">
             <AboutSite />
           </Route>
+          </div>
       </div>
     </BrowserRouter>
   );

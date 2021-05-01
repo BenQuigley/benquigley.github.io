@@ -30,6 +30,11 @@
   }
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 img {
   max-width: 560px;
   border-radius: 15px;
