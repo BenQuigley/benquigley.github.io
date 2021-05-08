@@ -68,6 +68,8 @@ html {
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin: 15px;
+  margin-left: 41px;
 }
 
 .details {
@@ -83,8 +85,7 @@ html {
 
 .mini {
   background-color: #6a8e7f;
-  margin: 15px;
-  margin-left: 40px;
+  width: 400px;
 }
 
 .name-badge {
