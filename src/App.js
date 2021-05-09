@@ -26,7 +26,7 @@ const Home = () => (
 
 const About = () => (
   <div id="about" className="card display">
-    <h2>About Ben</h2>
+    <h1>About Ben</h1>
     <h4>
       full stack software development | teaching &amp; learning | systems
       solutions
@@ -74,7 +74,7 @@ const About = () => (
 
 const Contact = () => (
   <div id="contact" className="card display">
-    <h2>Contact</h2>
+    <h1>Contact</h1>
     <div className="name-badge">
       <div className="details">
         <p className="emph">Ben Quigley</p>
@@ -96,7 +96,7 @@ const Contact = () => (
 
 const Resume = () => (
   <div id="resume" className="card display">
-    <h2>Resume</h2>
+    <h1>Resume</h1>
     <Document file={quigleyResume}>
       <Page pageNumber={1} />
     </Document>
