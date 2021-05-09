@@ -3,13 +3,13 @@ body {
   padding-left: 20px;
 }
 
-.card {
-  max-width: 780px;
-}
-
 img {
   max-width: 560px;
   border-radius: 15px;
+}
+
+.card {
+  max-width: 780px;
 }
 
 .small {
