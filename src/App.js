@@ -9,20 +9,20 @@ import { Helmet } from "react-helmet";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const Home = () => (
-    <div className="card display">
-      <div>
-        <h1>Ben Quigley</h1>
-        <p>
-          Solutions engineer developing and managing user-friendly, effective,
-          enterprise software systems.
-        </p>
-      </div>
-      <img
-        src={quigleyExpoCropped}
-        alt="Ben at a HR technology expo with the Sage People team"
-      />
+  <div className="card display">
+    <div>
+      <h1>Ben Quigley</h1>
+      <p>
+        Solutions engineer developing and managing user-friendly, effective,
+        enterprise software systems.
+      </p>
     </div>
-)
+    <img
+      src={quigleyExpoCropped}
+      alt="Ben at a HR technology expo with the Sage People team"
+    />
+  </div>
+);
 
 const About = () => (
   <div id="about" className="card display">
@@ -70,7 +70,7 @@ const About = () => (
       </tr>
     </table>
   </div>
-)
+);
 
 const Contact = () => (
   <div id="contact" className="card display">
@@ -92,7 +92,7 @@ const Contact = () => (
       <img src={quigley} className="small" alt="Ben" />
     </div>
   </div>
-)
+);
 
 const Resume = () => (
   <div id="resume" className="card display">
@@ -113,7 +113,7 @@ const AboutSite = () => (
       <a href="https://github.com/BenQuigley/benquigley.github.io">here</a>.
     </p>
   </div>
-)
+);
 
 export default function App() {
   return (
@@ -124,16 +124,16 @@ export default function App() {
           <title>Ben Quigley Home</title>
           <link rel="canonical" href="http://signmaker.dev" />
         </Helmet>
-          <div className="body">
-            <div className="card mini">
-              <p>
-                <Link to="/">home</Link> | <Link to="/about">about</Link> |{" "}
-                <Link to="/contact">contact</Link> |{" "}
-                <a href="https://benideas.home.blog">blog</a> |{" "}
-                <a href="https://github.com/BenQuigley">GitHub</a> |{" "}
-                <Link to="/resume">resume</Link>
-              </p>
-            </div>
+        <div className="body">
+          <div className="card mini">
+            <p>
+              <Link to="/">home</Link> | <Link to="/about">about</Link> |{" "}
+              <Link to="/contact">contact</Link> |{" "}
+              <a href="https://benideas.home.blog">blog</a> |{" "}
+              <a href="https://github.com/BenQuigley">GitHub</a> |{" "}
+              <Link to="/resume">resume</Link>
+            </p>
+          </div>
 
           {/* Route components are rendered if the path prop matches the current URL */}
           <Route exact path="/">
@@ -154,7 +154,7 @@ export default function App() {
           <Route path="/">
             <AboutSite />
           </Route>
-          </div>
+        </div>
       </div>
     </BrowserRouter>
   );
