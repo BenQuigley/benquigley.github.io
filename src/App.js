@@ -1,8 +1,12 @@
 import quigley from "./static/images/quigley.jpg";
 import quigleyExpoCropped from "./static/images/quigleyExpoCropped.jpg";
+import quigleyResume from "./static/pages/Ben-Quigley-resume.pdf";
+import { Document, Page, pdfjs } from "react-pdf";
 import { Link, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import { Helmet } from "react-helmet";
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const Home = () => (
     <div className="card display">
@@ -90,6 +94,15 @@ const Contact = () => (
   </div>
 )
 
+const Resume = () => (
+  <div id="resume" className="card display">
+    <h2>Resume</h2>
+    <Document file={quigleyResume}>
+      <Page pageNumber={1} />
+    </Document>
+  </div>
+);
+
 const AboutSite = () => (
   <div className="card mini">
     <p>
@@ -134,6 +147,9 @@ export default function App() {
           </Route>
           <Route exact path="/contact">
             <Contact />
+          </Route>
+          <Route exact path="/resume">
+            <Resume />
           </Route>
           <Route path="/">
             <AboutSite />
