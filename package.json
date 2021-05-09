@@ -7,7 +7,6 @@
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
-    "gh-pages": "^3.1.0",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
     "react-dev-utils": "^11.0.4",
@@ -23,8 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "netlify-deploy": "yarn run netlify deploy --dir=build --open --prod",
+    "deploy": "yarn run build; yarn run netlify-deploy"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "netlify-cli": "^3.29.0"
   }
 }
