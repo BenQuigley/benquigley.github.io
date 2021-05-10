@@ -107,10 +107,8 @@ const AboutSite = () => (
   <div className="card mini">
     <p>
       This site was built using <a href="https://reactjs.org/">React</a>.
-    </p>
-    <p>
       Its source code is hosted{" "}
-      <a href="https://github.com/BenQuigley/benquigley.github.io">here</a>.
+      <a href="https://github.com/BenQuigley/signmaker.dev">here</a>.
     </p>
   </div>
 );
