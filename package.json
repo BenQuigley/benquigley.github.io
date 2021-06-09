@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://signmaker.dev",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^13.1.8",
     "react": "^17.0.1",
@@ -12,7 +12,7 @@
     "react-helmet": "^6.1.0",
     "react-pdf": "^5.3.0",
     "react-router-dom": "^5.2.0",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
