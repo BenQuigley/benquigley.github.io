@@ -155,6 +155,13 @@ const Gifting = () => (
   <li>Any <a href="https://reverb.com/c/effects-and-pedals/reverb">reverb</a> effect pedal, except a Neunaber Immerse mkII which I own</li>
   <li>Any <a href="https://reverb.com/c/effects-and-pedals/delay">delay</a> effect pedal, except a Keeley Caverns</li>
   </ul>
+  <h2>Sizing notes</h2>
+  <ul>
+  <li>Shoe size: 11 M</li>
+  <li>Pant size: 30x34</li>
+  <li>Shirt size: small or medium; slim for dress shirts</li>
+  <li>Wrist circumference: 6.5"</li>
+  </ul>
   </div>
 );
 
