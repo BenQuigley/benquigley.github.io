@@ -13,7 +13,7 @@ const Home = () => (
     <div>
       <h1>Ben Quigley</h1>
       <p>
-        Solutions engineer developing and managing user-friendly, effective,
+        Web and integrations engineer developing and managing user-friendly, effective,
         enterprise software systems.
       </p>
     </div>
@@ -78,7 +78,7 @@ const Contact = () => (
     <div className="name-badge">
       <div className="details">
         <p className="emph">Ben Quigley</p>
-        <p>Solutions engineer</p>
+        <p>Systems engineer</p>
         <ul>
           <li>Home: Brooklyn, NY</li>
           <li>
