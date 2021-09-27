@@ -1945,14 +1945,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
-  version "7.14.0"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
-  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime@^7.11.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.15.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.3.tgz#2e1c2880ca118e5b2f9988322bd8a7656a32502b"
   integrity sha512-OvwMLqNXkCXSz1kSm58sEsNuhqOx/fKpnUnKnFB5v8uDda5bLNEHNgKPvhDN6IU0LDcnHQ90LlJ0Q6jnyBSIBA==
@@ -12379,10 +12372,10 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-pdfjs-dist@2.6.347:
-  version "2.6.347"
-  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-2.6.347.tgz#f257ed66e83be900cd0fd28524a2187fb9e25cd5"
-  integrity sha512-QC+h7hG2su9v/nU1wEI3SnpPIrqJODL7GTDFvR74ANKGq1AFJW16PH8VWnhpiTi9YcLSFV9xLeWSgq+ckHLdVQ==
+pdfjs-dist@2.9.359:
+  version "2.9.359"
+  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-2.9.359.tgz#e67bafebf20e50fc41f1a5c189155ad008ac4f81"
+  integrity sha512-P2nYtkacdlZaNNwrBLw1ZyMm0oE2yY/5S/GDCAmMJ7U4+ciL/D0mrlEC/o4HZZc/LNE3w8lEVzBEyVgEQlPVKQ==
 
 pend@~1.2.0:
   version "1.2.0"
@@ -13624,10 +13617,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-pdf@^5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/react-pdf/-/react-pdf-5.3.0.tgz#29f128c70fdb2397ce9d65f3402e762847259f9d"
-  integrity sha512-9/8gx5uy79PTkN7+NZoFxiOYfMWoBFlUEdAPyf9ZVvOtPdumJD9z6j7O40pMSlw2vENfdNoPIo8E+iolafg4Hg==
+react-pdf@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/react-pdf/-/react-pdf-5.4.0.tgz#57083f43f53d44ce4218e4431b5812dcce8526dd"
+  integrity sha512-wO+RESP4t9Dwq10ORiE1XSPohnsU/WYTgHf80mDhRxPqwzN2HrbBg1NUZRBqbxkd8ZM3HhBR47apYL4xmweMPg==
   dependencies:
     "@babel/runtime" "^7.0.0"
     file-loader "^6.0.0"
@@ -13635,7 +13628,7 @@ react-pdf@^5.3.0:
     make-event-props "^1.1.0"
     merge-class-names "^1.1.1"
     merge-refs "^1.0.0"
-    pdfjs-dist "2.6.347"
+    pdfjs-dist "2.9.359"
     prop-types "^15.6.2"
 
 react-refresh@^0.8.3:
