@@ -8,7 +8,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Run locally with:
 
-    $ yarn install
+    $ npm install --global yarn  # if yarn is not installed
+    $ yarn install  # if the site is not installed
     $ yarn start
 
 ## Deploy
