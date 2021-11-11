@@ -4,14 +4,14 @@
   "private": true,
   "homepage": "https://signmaker.dev",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.1.9",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-pdf": "^5.3.0",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.0.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
@@ -41,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "netlify-cli": "^6.7.1",
+    "netlify-cli": "^6.14.19",
     "prettier": "^2.3.2",
     "react-dev-utils": "^11.0.4",
     "react-scripts": "^4.0.3"
