@@ -135,37 +135,13 @@ const Gifting = () => (
     </p>
     <h2>$0-20 range</h2>
     <ul>
-      <li>Bottle of dry red wine</li>
+      <li>Bottle of pinot noir</li>
       <li>Wool socks</li>
-      <li>
-        <a href="https://bookshop.org/books/a-natural-history-of-dragons-a-memoir-by-lady-trent/9780765375070">
-          A Natural History of Dragons: A Memoir by Lady Trent
-        </a>
-        , by Marie Brennan
-      </li>
-      <li>
-        <a href="https://bookshop.org/books/the-overstory/9780393356687">
-          The Overstory
-        </a>
-        , by Richard Powers
-      </li>
-      <li>
-        <a href="https://bookshop.org/books/black-leopard-red-wolf/9780735220188">
-          Black Leopard, Red Wolf
-        </a>
-        , by Marlon James
-      </li>
       <li>
         <a href="https://bookshop.org/books/this-is-how-you-lose-the-time-war/9781534430990">
           This Is How You Lose the Time War
         </a>
         , by Amal El-Mohtar and Max Gladstone
-      </li>
-      <li>
-        <a href="https://bookshop.org/books/the-essex-serpent/9780062666383">
-          The Essex Serpent
-        </a>
-        , by Sarah Perry
       </li>
       <li>
         <a href="https://bookshop.org/books/deaf-republic-poems/9781555978310">
@@ -190,15 +166,6 @@ const Gifting = () => (
         RPG rules
       </li>
       <li>
-        <a href="https://www.evilhat.com/store/index.php?main_page=advanced_search_result&keyword=thirsty+sword+lesbians">
-          Thirsty Sword Lesbians
-        </a>{" "}
-        RPG rules
-      </li>
-      <li>
-        <a href="http://kotohi.com/ryuutama/">Ryuutama</a> RPG rules
-      </li>
-      <li>
         <a href="https://www.drivethrurpg.com/product/94815/Vampire-The-Masquerade-20th-Anniversary-Edition">
           Vampire the Masquerade
         </a>{" "}
@@ -221,12 +188,10 @@ const Gifting = () => (
     <ul>
       <li>
         Any <a href="https://reverb.com/c/effects-and-pedals/reverb">reverb</a>{" "}
-        effect pedal, except a Neunaber Immerse mkII which I own
+        or <a href="https://reverb.com/c/effects-and-pedals/delay">delay</a>{" "}
+        effect pedal
       </li>
-      <li>
-        Any <a href="https://reverb.com/c/effects-and-pedals/delay">delay</a>{" "}
-        effect pedal, except a Keeley Caverns
-      </li>
+      <li>Any effect pedal</li>
     </ul>
     <h2>Sizing notes</h2>
     <ul>
