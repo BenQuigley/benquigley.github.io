@@ -2,7 +2,7 @@ import quigley from "./static/images/quigley.jpg";
 import quigleyExpoCropped from "./static/images/quigleyExpoCropped.jpg";
 import quigleyResume from "./static/pages/Ben-Quigley-resume.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
-import { Link, Route, BrowserRouter } from "react-router-dom";
+import { Link, Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import { Helmet } from "react-helmet";
 
@@ -185,28 +185,16 @@ export default function App() {
             </p>
           </div>
 
-          {/* Route components are rendered if the path prop matches the current URL */}
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/home">
-            <Home />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-          <Route exact path="/resume">
-            <Resume />
-          </Route>
-          <Route exact path="/gifting">
-            <Gifting />
-          </Route>
-          <Route path="/">
-            <AboutSite />
-          </Route>
+          <Routes>
+            {/* Route components are rendered if the path prop matches the current URL */}
+            <Route exact path="/" element={<Home />}></Route>
+            <Route exact path="/home" element={<Home />}></Route>
+            <Route exact path="/about" element={<About />}></Route>
+            <Route exact path="/contact" element={<Contact />}></Route>
+            <Route exact path="/resume" element={<Resume />}></Route>
+            <Route exact path="/gifting" element={<Gifting />}></Route>
+            <Route path="/" element={<AboutSite />}></Route>
+          </Routes>
         </div>
       </div>
     </BrowserRouter>
