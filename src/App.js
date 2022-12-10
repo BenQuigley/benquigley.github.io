@@ -138,12 +138,6 @@ const Gifting = () => (
       <li>Bottle of pinot noir</li>
       <li>Wool socks</li>
       <li>
-        <a href="https://bookshop.org/books/this-is-how-you-lose-the-time-war/9781534430990">
-          This Is How You Lose the Time War
-        </a>
-        , by Amal El-Mohtar and Max Gladstone
-      </li>
-      <li>
         <a href="https://bookshop.org/books/deaf-republic-poems/9781555978310">
           Deaf Republic
         </a>
@@ -191,7 +185,19 @@ const Gifting = () => (
         or <a href="https://reverb.com/c/effects-and-pedals/delay">delay</a>{" "}
         effect pedal
       </li>
-      <li>Any effect pedal</li>
+    </ul>
+    <p>The following guitar pedals in particular have been on my radar:</p>
+    <ul>
+      <li>Earthquaker Devices Dispatch Master - ~$150</li>
+      <li>Way Huge Atreides - ~$165</li>
+      <li>DOD Rubberneck - ~$150</li>
+      <li>Digitech Supernatural - ~$170</li>
+      <li>Browne Effects Carbon - ~$200</li>
+      <li>EAE Limelight v2 - ~$250</li>
+      <li>OBNE Minim - ~$200</li>
+      <li>Beautiful Noise Effects When the Sun Explodes - ~$275</li>
+      <li>Drone Rainger - ~$300</li>
+      <li>Chase Bliss Blooper - ~$400</li>
     </ul>
     <h2>Sizing notes</h2>
     <ul>
