@@ -41,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "netlify-cli": "^12.9.0",
+    "netlify-cli": "^12.14.0",
     "prettier": "^2.3.2",
     "react-dev-utils": "^11.0.4",
     "react-scripts": "^4.0.3"
