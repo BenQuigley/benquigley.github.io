@@ -171,12 +171,6 @@ const Gifting = () => (
         </a>{" "}
         game
       </li>
-      <li>
-        <a href="https://bookshop.org/books/salt-fat-acid-heat-mastering-the-elements-of-good-cooking-9781508284000/9781476753836">
-          Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking
-        </a>
-        , by Samin Nosrat
-      </li>
     </ul>
     <h2>$80+ range</h2>
     <ul>
@@ -188,17 +182,15 @@ const Gifting = () => (
     </ul>
     <p>The following guitar pedals in particular have been on my radar:</p>
     <ul>
-      <li>Earthquaker Devices Dispatch Master - ~$150</li>
+      <li>Wampler Tumnus</li>
       <li>Way Huge Atreides - ~$165</li>
       <li>DOD Rubberneck - ~$150</li>
-      <li>Digitech Supernatural - ~$170</li>
       <li>Browne Effects Carbon - ~$200</li>
-      <li>EAE Limelight v2 - ~$250</li>
-      <li>OBNE Minim - ~$200</li>
       <li>Beautiful Noise Effects When the Sun Explodes - ~$275</li>
       <li>Drone Rainger - ~$300</li>
       <li>Chase Bliss Blooper - ~$400</li>
     </ul>
+    <p>Anything from Patagonia would probably be a good gift for me</p>
     <h2>Sizing notes</h2>
     <ul>
       <li>Shoe size: 11 M</li>
