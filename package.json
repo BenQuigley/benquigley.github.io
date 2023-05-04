@@ -19,8 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "netlify-deploy": "yarn run netlify deploy --dir=build --open --prod",
-    "deploy": "yarn run build; yarn run netlify-deploy"
+    "remind-about-new-deploy-process": "echo 'DEPRECATED: the deploy process is now to push to master on github.'",
+    "netlify-deploy": "yarn run remind-about-new-deploy-process",
+    "deploy": "yarn run remind-about-new-deploy-process"
   },
   "eslintConfig": {
     "extends": [
